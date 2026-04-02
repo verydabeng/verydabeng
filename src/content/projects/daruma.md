@@ -1,0 +1,8 @@
+---
+title: "Daruma"
+year: 2025
+order: 3
+url: "https://daruma.verydabeng.com"
+---
+
+Inspired by a visit to a temple in Japan where I saw web readings on display. Scraped the content and made the drawings digital.

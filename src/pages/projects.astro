@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const projects = await getCollection('projects');
+projects.sort((a, b) => a.data.order - b.data.order);
+---
+
+<Base title="Projects — Chan Beng Chung">
+  <div class="page-header">
+    <h1>Projects</h1>
+    <p>Things I've <s>built</s> vibe-coded.</p>
+  </div>
+
+  <ul class="project-list">
+    {projects.map(async (project) => {
+      const { Content } = await project.render();
+      return (
+        <li>
+          <div class="project-title">{project.data.title}</div>
+          {project.body && (
+            <div style="margin-top: 0.4rem; font-size: 0.95rem; color: var(--muted);"><Content /></div>
+          )}
+          {(project.data.url || project.data.source) && (
+            <div class="project-links">
+              {project.data.url && <a href={project.data.url} target="_blank" rel="noopener">Live ↗</a>}
+              {project.data.source && <a href={project.data.source} target="_blank" rel="noopener">Source ↗</a>}
+            </div>
+          )}
+        </li>
+      );
+    })}
+  </ul>
+</Base>

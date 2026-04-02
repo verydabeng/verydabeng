@@ -1,0 +1,8 @@
+---
+title: "BM"
+year: 2025
+order: 6
+url: "https://bm.verydabeng.com"
+---
+
+Someone in a Telegram group was struggling to view a read-only Excel sheet on mobile — hard to navigate, tiny cells. Built a site that loads the data dynamically from the spreadsheet so it's actually usable on a phone.

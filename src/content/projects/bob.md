@@ -1,0 +1,8 @@
+---
+title: "Bob"
+year: 2025
+order: 5
+url: "https://bob.verydabeng.com"
+---
+
+A friend wanted to migrate her store from WooCommerce to Shopify — too many products was making the server crawl. Built a demo to test whether headless commerce actually loads faster. It does. Currently paying for a Shopify subscription and not selling anything.

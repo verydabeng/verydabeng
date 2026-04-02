@@ -1,0 +1,8 @@
+---
+title: "Manga"
+year: 2025
+order: 2
+url: "https://manga.verydabeng.com"
+---
+
+I love reading manga. The app I used on my phone worked fine — until one day it didn't. Found a boilerplate on GitHub, forked it, and added more data sources to keep the reading going.
