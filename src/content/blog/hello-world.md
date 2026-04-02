@@ -1,18 +1,22 @@
 ---
-title: "Hello, World"
-date: 2026-04-02
-description: "First post — why I'm writing here."
+title: "How it started"
+date: 2026-04-03
+description: "A colleague leaving, a forked repo, and a Cloudflare rabbit hole."
 draft: false
 ---
 
-This is my first post. I'm starting this blog to write about things I'm learning, building, and thinking about.
+My colleague was leaving the firm for better opportunities. I was bored one day and decided to copy his domain name — just changed the letter "P" to "B". That was it. That was the spark.
 
-## Why write?
+So I forked his kopi ordering website. Took a look at the code and it was quite straightforward. The unique part about his project was how he stored orders and allowed other users to view the same data in real time. It wasn't overly complex at all, but it got the job done.
 
-Writing forces clarity. When I try to explain something, I quickly find out whether I actually understand it.
+Then came the hosting. I used Cloudflare, and I fell in love with it immediately. Linking the GitHub repo, setting the key-value store, wiring up the domain routing — it all just clicked. It felt like anybody could do it.
 
-I'll write about [your topics here — tech, design, ideas, etc.]. No schedule, no algorithm to appease — just writing when I have something worth saying.
+And that was the beginning of my vibe coding journey.
 
----
+Since then I've built a manga reader (because an app I relied on just stopped working one day), a digital version of temple web readings I stumbled across in Japan, a Chinese metaphysics tool just for fun, a headless Shopify demo for a friend's store, an Excel viewer for someone in a Telegram group who couldn't read a spreadsheet on their phone, and a delivery app that failed miserably.
 
-If you've made it here somehow, welcome.
+Not all of them worked out. Some are half-finished. One is just sitting there as a reminder of what not to do. But each one taught me something.
+
+This site is my little digital footprint — a place to document what I've explored, what I've built, and what I've learned along the way.
+
+Most of it was done via Claude Code.
