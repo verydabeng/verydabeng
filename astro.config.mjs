@@ -1,7 +1,9 @@
 import { defineConfig } from 'astro/config';
 
-export default defineConfig({
-  output: 'static',
-  site: 'https://verydabeng.pages.dev',
+import cloudflare from "@astrojs/cloudflare";
 
+export default defineConfig({
+  output: "hybrid",
+  site: 'https://verydabeng.pages.dev',
+  adapter: cloudflare()
 });
